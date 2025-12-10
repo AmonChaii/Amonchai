@@ -37,7 +37,7 @@ Route::get('/logout', function () {
 Route::group(['middleware' => 'auth'], function() {
     
     // =========================================================
-    // 🟢 STUDENT ROUTES
+    // STUDENT ROUTES
     // =========================================================
     Route::group(['middleware' => 'studentAuth', 'prefix' => 'student', 'as' => 'student.'], function() {
         
@@ -68,7 +68,7 @@ Route::group(['middleware' => 'auth'], function() {
     });
 
     // =========================================================
-// 🔵 TEACHER ROUTES
+// TEACHER ROUTES
 // =========================================================
 Route::group(['middleware' => 'teacherAuth', 'prefix' => 'teacher', 'as' => 'teacher.'], function () {
 
