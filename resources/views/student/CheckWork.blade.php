@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ตรวจงาน</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Kanit", sans-serif;
+        background-color: #f0f2f5;
+      }
+    </style>
+  </head>
+  <body class="max-w-lg mx-auto">
+    <!-- Header Section -->
+    <header
+      class="bg-gradient-to-b from-blue-500 to-blue-400 p-4 pb-16 relative rounded-b-[3rem] text-center text-white shadow-lg"
+    >
+      <button class="absolute top-6 left-4 text-white">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15 19l-7-7 7-7"
+          />
+        </svg>
+      </button>
+      <div class="mt-8">
+        <img
+          class="w-24 h-24 rounded-full object-cover mx-auto border-4 border-white/50 shadow-lg"
+          src="https://placehold.co/96x96/EBF5FF/3B82F6?text=Teacher"
+          alt="Profile picture of Amonchai Boonjan"
+        />
+        <h1 class="text-xl font-semibold mt-5">อาจารย์จารุวัฒน์ ไพใหล</h1>
+        <p class="text-sm text-blue-100 mt-1">ช่องทางการติดต่อ : 0934389902</p>
+        <p class="text-sm text-blue-100">ความเชี่ยวชาญ : -</p>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="p-4 -mt-0 space-y-6">
+      <!-- Project Scope Card -->
+      <div class="bg-white p-4 rounded-xl shadow-md">
+        <h2 class="font-semibold text-gray-700 mb-3">ขอบเขตโครงงาน</h2>
+        <div class="space-y-3">
+          <!-- File Item 1 (Checked) -->
+          <div>
+            <div
+              class="flex justify-between items-center p-3 border border-gray-200 rounded-lg bg-gray-50"
+            >
+              <div class="flex items-center space-x-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 text-gray-500"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                  />
+                </svg>
+                <span class="text-blue-500 font-medium">บทที่ 1.pdf</span>
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-gray-400"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"
+                />
+              </svg>
+            </div>
+            <p class="text-xs text-gray-500 text-right mt-1 pr-2">ตรวจแล้ว</p>
+          </div>
+
+          <!-- File Item 2 -->
+          <a
+            href="#"
+            class="flex justify-between items-center p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition"
+          >
+            <div class="flex items-center space-x-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-gray-500"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                />
+              </svg>
+              <span class="text-blue-500 font-medium">บทที่ 1.pdf</span>
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 text-gray-500"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"
+              />
+            </svg>
+          </a>
+          <!-- File Item 3 -->
+          <a
+            href="#"
+            class="flex justify-between items-center p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition"
+          >
+            <div class="flex items-center space-x-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-gray-500"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                />
+              </svg>
+              <span class="text-blue-500 font-medium">บทที่ 1.pdf</span>
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 text-gray-500"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"
+              />
+            </svg>
+          </a>
+          <!-- File Item 4 -->
+          <a
+            href="#"
+            class="flex justify-between items-center p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition"
+          >
+            <div class="flex items-center space-x-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-gray-500"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                />
+              </svg>
+              <span class="text-blue-500 font-medium">บทที่ 1.pdf</span>
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 text-gray-500"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Submit Button -->
+      <div class="px-4 pt-4">
+        <button
+          class="w-full bg-white text-gray-700 font-semibold py-3 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 transition-colors border border-gray-300 shadow-sm"
+        >
+          ส่ง
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
